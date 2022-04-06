@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto','Raleway', sans-serif;
+}
+/* index */
+/*color-logo-Web: 2196F3 
+ color-logo-studio: black(header) and white(footer) 
+ color-link-mail/phone: 757575 
+ color-font-features: 757575 
+ color-background-hero: 2F303A 
+ color-font-features-title: 212121 
+ color-background-features: E5E5E5 
+ color-background-ourteam: F5F4FA 
+ color-background-header: ECECEC 
+ color-bacground-footer: 2F303A 
+ color-font-link-footer: #FFFFFF 60% 
+ */
+
+/* portfolio */
+/* color-background: E5E5E5
+   color-button: F5F4FA
+   color-button-font: 212121
+   color-hover-focus-button: 2196F3
+   color-hover-focus-button-font: white
+   color-background-container: EEEEEE
+   color-work-tag: 212121
+   color-title: 757575
+*/
+
+/* Header */
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-studio-header {
+  color: black;
+}
+
+.logo-studio-footer {
+  color: white;
+}
+
+.nav {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+}
+.nav:hover,
+.nav:focus {
+}
+
+.link-contacts {
+}
+.link-contacts:hover,
+.link-contacts:focus {
+}
+/* main */
+.hero {
+}
+
+.main-title {
+}
+.button-order {
+}
+/* Features */
+.features {
+}
+.features-item {
+}
+.features-title {
+}
+.features-text {
+}
+/* Our-works */
+.our-works-title {
+}
+.our-works {
+}
+/* Our team */
+.our-team {
+}
+.team-img {
+}
+
+.team-item {
+}
+
+.team-title {
+}
+
+.team-text {
+}
+/* footer */
+.link-google-maps {
+}
+
+.link-contacts-footer {
+  color: rgba(255, 255, 255, 60%);
+}
+/* Portfolio */
+/* filter */
+.filter {
+}
+
+.button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* Works */
+.works {
+}
+
+.work-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.work-img {
+}
+
+.work-tag {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.work-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
