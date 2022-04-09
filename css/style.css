@@ -1,6 +1,14 @@
 body {
-    font-family: 'Roboto','Raleway', sans-serif;
+  font-family: Roboto, sans-serif;
 }
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+.list {
+  list-style-type: none;
+}
+
 /* index */
 /*color-logo-Web: 2196F3 
  color-logo-studio: black(header) and white(footer) 
@@ -27,12 +35,15 @@ body {
 */
 
 /* Header */
+.header {
+  background-color: ECECEC;
+}
+
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -46,48 +57,105 @@ body {
 }
 
 .nav {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-
+  color: #212121;
 }
+
 .nav:hover,
 .nav:focus {
+  color: #2196f3;
 }
 
 .link-contacts {
-}
-.link-contacts:hover,
-.link-contacts:focus {
-}
-/* main */
-.hero {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
-.main-title {
+.link-contacts:hover,
+.link-contacts:focus {
+  color: #2196f3;
 }
+
+/* main */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .button-order {
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
+
 /* Features */
 .features {
 }
+
 .features-item {
 }
+
 .features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
+
 .features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
+
 /* Our-works */
 .our-works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
+
 .our-works {
 }
+
 /* Our team */
 .our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+    color: #212121;
 }
+
 .team-img {
 }
 
@@ -95,36 +163,73 @@ body {
 }
 
 .team-title {
-}
-
-.team-text {
-}
-/* footer */
-.link-google-maps {
-}
-
-.link-contacts-footer {
-  color: rgba(255, 255, 255, 60%);
-}
-/* Portfolio */
-/* filter */
-.filter {
-}
-
-.button {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.link-googlemaps {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.link-contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+/* filter */
+.filter {
+  display: flex;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: white;
+}
+
 /* Works */
 .works {
 }
 
+.works-list {
+  display: flex;
+  flex-direction: row;
+}
 .work-item {
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -135,19 +240,17 @@ body {
 }
 
 .work-tag {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color:#212121;
 }
 
 .work-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
