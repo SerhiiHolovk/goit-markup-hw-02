@@ -1,11 +1,25 @@
-body {
-  font-family: Roboto, sans-serif;
-  color: #212121;
-  font-weight: 700;
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --main-color: #212121;
+  --main-font-size: 14px;
+
+  --logo-font: 'Raleway', sans-serif;
+  --logo-webcolor: #2196f3;
+  --hover-focus-color: #2196f3;
+  --footer-background: #2f303a;
+  --link-contacts-color: #757575;
+  --description-text: #757575;
+  --button-order: #2196f3;
+  --ourteam-background: #f5f4fa;
 }
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  font-size: var(--main-font-size);
+}
+
 .link {
   text-decoration: none;
-  font-style: normal;
 }
 .list {
   list-style-type: none;
@@ -36,55 +50,50 @@ body {
    color-title: 757575
 */
 
-/* Header */
+/* ---------------------HEADER----------------- */
 .header {
-  background-color: ECECEC;
 }
 
 .logo {
-  font-family: 'Raleway';
-
+  font-family: var(--logo-font);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--logo-webcolor);
 }
 
 .logo-studio-header {
-  color: black;
+  color: #000;
 }
-
 .logo-studio-footer {
-  color: white;
+  color: #fff;
 }
 
 .nav {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: inherit;
 }
 
 .nav:hover,
 .nav:focus {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 
 .link-contacts {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--link-contacts-color);
 }
 
 .link-contacts:hover,
 .link-contacts:focus {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 
-/* main */
+/* ---------------------MAIN----------------- */
 .hero {
   background-color: #2f303a;
 }
@@ -100,19 +109,17 @@ body {
 }
 
 .button-order {
-  background-color: #2196f3;
+  background-color: var(--button-order);
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-
   cursor: pointer;
 }
 
-/* Features */
+/* ---------------------FEATURES---------------- */
 .features {
 }
 
@@ -120,21 +127,22 @@ body {
 }
 
 .features-title {
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features-text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text);
 }
 
-/* Our-works */
+/* ---------------------OUR WORKS----------------- */
+.our-team-section {
+  background-color: var(--ourteam-background);
+}
+
 .our-works-title {
   font-size: 36px;
   line-height: 1.16;
@@ -145,12 +153,13 @@ body {
 .our-works {
 }
 
-/* Our team */
+/* ---------------------OUR TEAM----------------- */
 .our-team {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+
 }
 
 .team-img {
@@ -168,43 +177,39 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text);
 }
 
-/* footer */
+/* ---------------------FOOTER----------------- */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-background);
 }
-
+.address {
+  font-style: normal;
+}
 .link-googlemaps {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .link-contacts-footer {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .link-contacts-footer:hover,
 .link-contacts-footer:focus {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 
-/* Portfolio */
+/* ---------------------PORTFOLIO----------------- */
 /* filter */
 .filter {
-  display: flex;
 }
 
 .button {
@@ -218,17 +223,15 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: #2196f3;
-  color: white;
+  background-color: var(--hover-focus-color);
+  color: #fff;
 }
 
-/* Works */
+/* ---------------------WORKS----------------- */
 .works {
 }
 
 .works-list {
-  display: flex;
-  flex-direction: row;
 }
 .work-item {
   background: #ffffff;
@@ -250,5 +253,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text);
 }
