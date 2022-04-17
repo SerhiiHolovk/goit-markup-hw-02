@@ -121,6 +121,7 @@ body {
 
 /* ---------------------FEATURES---------------- */
 .features {
+  display: none;
 }
 
 .features-item {
